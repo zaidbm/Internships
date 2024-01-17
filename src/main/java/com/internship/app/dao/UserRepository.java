@@ -1,9 +1,9 @@
-package com.gestion.app.dao;
+package com.internship.app.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.gestion.app.entities.*;
+import com.internship.app.entities.*;
 
 public interface UserRepository extends JpaRepository<User, Long>{
 	public User findByUsername(String username);

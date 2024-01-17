@@ -1,4 +1,4 @@
-package com.gestion.app.entities;
+package com.internship.app.entities;
 
 import java.util.Set;
 import jakarta.persistence.*;

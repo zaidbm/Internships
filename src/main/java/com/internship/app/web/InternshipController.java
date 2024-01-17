@@ -1,7 +1,8 @@
-package com.gestion.app.web;
+package com.internship.app.web;
 
-import com.gestion.app.entities.Internship;
-import com.gestion.app.services.InternshipService;
+import com.internship.app.entities.Internship;
+import com.internship.app.services.InternshipService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

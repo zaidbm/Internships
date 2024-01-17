@@ -20,9 +20,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import com.gestion.app.services.CityService;
-import com.gestion.app.web.CityController;
-import com.gestion.app.entities.City;
+
+import com.internship.app.entities.City;
+import com.internship.app.services.CityService;
+import com.internship.app.web.CityController;
 
 
 @ExtendWith(MockitoExtension.class)

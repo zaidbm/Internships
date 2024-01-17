@@ -16,9 +16,10 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
-import com.gestion.app.dao.CityRepository;
-import com.gestion.app.entities.City;
-import com.gestion.app.services.CityService;
+
+import com.internship.app.dao.CityRepository;
+import com.internship.app.entities.City;
+import com.internship.app.services.CityService;
 
 @ExtendWith(MockitoExtension.class)
 public class cityServiceTest {

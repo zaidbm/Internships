@@ -1,7 +1,8 @@
-package com.gestion.app.services;
+package com.internship.app.services;
 
-import com.gestion.app.dao.CityRepository;
-import com.gestion.app.entities.City;
+import com.internship.app.dao.CityRepository;
+import com.internship.app.entities.City;
+
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;

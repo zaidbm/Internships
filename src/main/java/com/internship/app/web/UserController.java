@@ -1,4 +1,4 @@
-package com.gestion.app.web;
+package com.internship.app.web;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -7,18 +7,20 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import com.gestion.app.dao.InternRepository;
-import com.gestion.app.dao.InternshipRepository;
-import com.gestion.app.dao.InternshipTypeRepository;
-import com.gestion.app.dao.RecruiterRepository;
-import com.gestion.app.dao.UserRepository;
-import com.gestion.app.entities.User;
-import com.gestion.app.services.InternService;
-import com.gestion.app.services.InternshipService;
-import com.gestion.app.services.RecruiterService;
-import com.gestion.app.services.UserService;
+
+import com.internship.app.dao.InternRepository;
+import com.internship.app.dao.InternshipRepository;
+import com.internship.app.dao.InternshipTypeRepository;
+import com.internship.app.dao.RecruiterRepository;
+import com.internship.app.dao.UserRepository;
 import com.internship.app.dto.InternshipCountPerRecruiter;
 import com.internship.app.dto.InternshipsCountByType;
+import com.internship.app.entities.User;
+import com.internship.app.services.InternService;
+import com.internship.app.services.InternshipService;
+import com.internship.app.services.RecruiterService;
+import com.internship.app.services.UserService;
+
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpSession;
 

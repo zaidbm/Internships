@@ -1,11 +1,13 @@
-package com.gestion.app.services;
+package com.internship.app.services;
 
 import java.util.Base64;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.gestion.app.dao.UserRepository;
-import com.gestion.app.entities.User;
+
+import com.internship.app.dao.UserRepository;
+import com.internship.app.entities.User;
+
 import java.security.SecureRandom;
 
 @Service

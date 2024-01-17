@@ -1,4 +1,4 @@
-package com.gestion.app.entities;
+package com.internship.app.entities;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.*;

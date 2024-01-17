@@ -1,7 +1,7 @@
-package com.gestion.app.web;
+package com.internship.app.web;
 
-import com.gestion.app.entities.City;
-import com.gestion.app.services.CityService;
+import com.internship.app.entities.City;
+import com.internship.app.services.CityService;
 
 import jakarta.validation.Valid;
 

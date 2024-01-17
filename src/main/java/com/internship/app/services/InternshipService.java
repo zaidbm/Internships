@@ -1,13 +1,13 @@
-package com.gestion.app.services;
+package com.internship.app.services;
 
-import com.gestion.app.dao.InternshipRepository;
-import com.gestion.app.dao.InternshipTypeRepository;
-import com.gestion.app.dao.RecruiterRepository;
-import com.gestion.app.entities.Internship;
-import com.gestion.app.entities.InternshipType;
-import com.gestion.app.entities.Recruiter;
+import com.internship.app.dao.InternshipRepository;
+import com.internship.app.dao.InternshipTypeRepository;
+import com.internship.app.dao.RecruiterRepository;
 import com.internship.app.dto.InternshipCountPerRecruiter;
 import com.internship.app.dto.InternshipsCountByType;
+import com.internship.app.entities.Internship;
+import com.internship.app.entities.InternshipType;
+import com.internship.app.entities.Recruiter;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

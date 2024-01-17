@@ -1,4 +1,4 @@
-package com.gestion.app.services;
+package com.internship.app.services;
 
 import java.util.Optional;
 
@@ -6,8 +6,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
-import com.gestion.app.dao.RecruiterRepository;
-import com.gestion.app.entities.Recruiter;
+
+import com.internship.app.dao.RecruiterRepository;
+import com.internship.app.entities.Recruiter;
 
 public class RecruiterService {
 	private RecruiterRepository recruiterRepository;
