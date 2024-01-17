@@ -35,7 +35,6 @@ public class cityServiceTest {
     @Test
     void testGetAllCities() {
         List<City> cities = new ArrayList<>();
-        // Add some sample cities to the list
         cities.add(new City("city1"));
         cities.add(new City("city2"));
         
@@ -66,13 +65,10 @@ public class cityServiceTest {
 
         when(cityRepository.findById(cityId)).thenReturn(Optional.empty());
 
-        // Act
         Optional<City> result = cityService.getCityById(cityId);
 
-        // Assert
         assertEquals(result,Optional.empty());
 
-        // Verify that the findById method was called with the correct argument
         verify(cityRepository).findById(cityId);
     }
 
