@@ -24,23 +24,16 @@ public class CustomAuthenticationSuccessHandler implements AuthenticationSuccess
 		Collection<? extends GrantedAuthority> authorities = authentication.getAuthorities();
 		for (GrantedAuthority grantedAuthority : authorities) {
 			System.out.println(grantedAuthority.getAuthority());
-			if (grantedAuthority.getAuthority().equals("ROLE_DEVELOPER")) {
-				redirectUrl = "/Developer/Dashboard";
+			if (grantedAuthority.getAuthority().equals("ROLE_RECRUITER")) {
+				redirectUrl = "/RECRUITER/Dashboard";
 				break;
 			} else if (grantedAuthority.getAuthority().equals("ROLE_ADMIN")) {
 				redirectUrl = "/Admin/Dashboard";
 				break;
-			} 	else if (grantedAuthority.getAuthority().equals("ROLE_MANAGER")) {
-				redirectUrl = "/Manager/Dashboard";
-				break;
-			}	else if (grantedAuthority.getAuthority().equals("ROLE_TESTER")) {
-				redirectUrl = "/Tester/Dashboard";
-				break;
-			} 	else if (grantedAuthority.getAuthority().equals("ROLE_SUPPORT")) {
-				redirectUrl = "/Support/Dashboard";
+			} 	else if (grantedAuthority.getAuthority().equals("ROLE_INTERN")) {
+				redirectUrl = "/INTERN/Dashboard";
 				break;
 			}
-		System.out.println("redirectUrl ffffff" + redirectUrl);
 		if (redirectUrl == null) {
 			throw new IllegalStateException();
 		}
