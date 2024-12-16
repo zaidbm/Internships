@@ -1,5 +1,5 @@
 package com.internship.app.services;
-/*package com.gestion.app.services;
+package com.gestion.app.services;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +29,7 @@ public class UserDetailsServiceImp implements UserDetailsService {
         List<GrantedAuthority> authorities = AuthorityUtils.commaSeparatedStringToAuthorityList(user.getRoles());
         return new org.springframework.security.core.userdetails.User(user.getUsername(), user.getPassword(), authorities);
 
-        /*if (username.equals("user")) {
+        if (username.equals("user")) {
             return User.builder()
                     .username("user")
                     .password("{noop}password") // {noop} is used for plain text password (not secure, for demonstration purposes only)
@@ -46,4 +46,3 @@ public class UserDetailsServiceImp implements UserDetailsService {
         }
     }
 }
-*/
